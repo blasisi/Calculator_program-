@@ -1,0 +1,59 @@
+/* *, *::before, *::after{
+box-sizing: border-box;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: normal;
+} */
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: rgb(247,150,192);
+    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+      line-height: 42px;
+    box-sizing: border-box;
+    /* clip-path: ellipse(90% 110% at 50% 0%);
+    clip-path: ellipse(246% 100% at -75.44% 0%); */
+    border-radius: 0% 0% 50% 50% ;   
+
+}
+
+#calcForm {
+/* display: grid; */
+
+justify-content: center;
+align-items:center;
+color: magenta;
+}
+
+#input [Name=displayCalc]{
+    color: navy;
+    background-color: black;
+}
+
+
+input{
+
+    width: 140px;
+    height: 100px;
+    font-size: 60px;
+    border-radius: 10px;
+    margin: 10px;
+  
+    color: brown;
+    border-style: none;
+    border-radius: 0% 0% 50% 50% ;   
+    transform: translateY(4px);
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+input:focus{
+
+}
+
+input[type="button"] {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
